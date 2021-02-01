@@ -1,5 +1,5 @@
 # Are u ok
-> 东北大学学生防控信息统计系统自动化打卡脚本
+> 支持Github Action的NEU形式主义自动化打卡python脚本
 
 
 ## 目录
