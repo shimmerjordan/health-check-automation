@@ -93,7 +93,7 @@
 2. 点击左侧侧边栏的 `Actions`进入设置页面
 3. 选择`Disable Actions for this repository `即可禁用掉自动打卡
 
-当然，也可以直接删除Fork后的仓库.
+当然，也可以直接删除Fork后的仓库
 
 ## 开源协议
 
