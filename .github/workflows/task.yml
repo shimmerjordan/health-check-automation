@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt
       - name: Run Automation Task
         run: |
-          python ./main.py 20181023 dbdxa3233914 52.52.52.52 smtp.189.cn:25 18540171008@189.cn TXJQDfamilY2 shimmerjordan@snapmail.cc
+          python ./main.py "${{ secrets.AUTOMATION_USER01 }}"
           python ./main.py "${{ secrets.AUTOMATION_USER02 }}"
           python ./main.py "${{ secrets.AUTOMATION_USER03 }}"
           python ./main.py "${{ secrets.AUTOMATION_USER04 }}"
