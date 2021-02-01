@@ -1,4 +1,4 @@
-name: task
+name: task-autonCheckHealth
 
 on:
   push:
