@@ -1,0 +1,32 @@
+name: task
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron:  '0 0,5,12 * * *'
+
+
+jobs:
+  task:
+    name: im fine
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.7'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run
+        run: |
+          python ./main.py 20171410 HWXjlmjqd12345 52.52.52.52 smtp.163.com:25 shimmerjordan@163.com taiyanggege0226 shimmerjordan@126.com
+		  python ./main.py 20180072 ZRCJQDfamilY3 52.52.52.52 smtp.163.com:25 shimmerjordan@163.com taiyanggege0226 shimmerjordan@126.com
+		  python ./main.py 20173577 czx99613. 52.52.52.52 smtp.163.com:25 shimmerjordan@163.com taiyanggege0226 shimmerjordan@126.com
+		  python ./main.py 20181023 dbdxa3233914 52.52.52.52 smtp.163.com:25 shimmerjordan@163.com taiyanggege0226 shimmerjordan@126.com
+
