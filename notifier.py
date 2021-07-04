@@ -13,8 +13,8 @@ class Notifier:
 
 
 class MailNotifier(Notifier):
-    _from: Header = Header("NEU-auto-check-health<neu@email.com>")
-    _to: Header = Header("Dear Tool Man:<example@email.com>")
+    _from: Header = Header("cn13002442209@2980.com")
+    _to: Header = Header("13nvjk9iz@btc1588.club")
 
     def __init__(self, host: str, username: str, password: str, receiver: str):
         self._host: str = host
