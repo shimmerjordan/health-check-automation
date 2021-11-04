@@ -1,7 +1,6 @@
 # Are u ok
 > 支持Github Action的NEU形式主义自动化打卡python脚本
 
-
 ## 目录
 
 - [使用须知](#使用须知)
