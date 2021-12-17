@@ -25,3 +25,4 @@ jobs:
       - name: Run Automation Task
         run: |
           python ./main.py ${{ secrets.AUTOMATION_USER01 }}
+          python ./main.py ${{ secrets.AUTOMATION_USER02 }}
